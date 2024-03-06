@@ -1,0 +1,5 @@
+typedef sequence<long> LongArray;
+
+interface MyInterface {
+   long Summa (in LongArray numbers);
+};
