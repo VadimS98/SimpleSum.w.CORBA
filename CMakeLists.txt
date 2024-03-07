@@ -13,3 +13,6 @@ target_link_libraries(server omniORB4 omniDynamic4 omnithread omniCodeSets4)
 
 add_executable(client mclient.cpp SimpleIDLSK.cc)
 target_link_libraries(client omniORB4 omniDynamic4 omnithread omniCodeSets4)
+
+add_executable(numbersgenerator numbersgenerator.cpp)
+target_link_libraries(numbersgenerator)
